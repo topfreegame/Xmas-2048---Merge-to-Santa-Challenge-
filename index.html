@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Xmas 2048 - Merge to Santa! VRGame8.com</title>
+  <meta name="description" content="Merge ornaments to candy canes, trees, Santa! 24-min challenge with Jingle Bells music.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="snow"></div>
+  <audio id="bgMusic" loop>
+    <source src="https://incompetech.com/music/royalty-free/mp3-royaltyfree/Jingle%20Bells.mp3" type="audio/mpeg">
+  </audio>
+  <div class="container">
+    <h1>🎄 Xmas 2048</h1>
+    <p class="subtitle">Merge 🎁 → 🍭 → 🌲 → 🎅 in 24 Minutes!</p>
+    
+    <div class="timer">Time Left: <span id="timer">24:00</span></div>
+    <div class="score-container">
+      Score: <span id="score">0</span>　　Best: <span id="best">0</span>
+    </div>
+    
+    <div class="grid-container" id="grid"></div>
+    
+    <button onclick="newGame()">New Game</button>
+    <p class="message" id="message"></p>
+    
+    <div class="footer">
+      More Christmas games → <a href="https://vrgame8.com" target="_blank">VRGame8.com</a>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
