@@ -3,7 +3,7 @@
 Merge 🎁 ornaments → 🍭 candy canes → 🌲 Christmas trees → 🎅 Santa Claus!  
 **24-minute timed challenge** with Jingle Bells music, Santa Boosts, & snow!
 
-**Live Demo** → https://yourusername.github.io/xmas-2048-merge-to-santa-vrgame8/
+**Live Demo** → https://topfreegame.github.io/Xmas-2048---Merge-to-Santa-Challenge-/
 
 ## Features
 - Exact merge path: 🎁(2) + 🎁 → 🍭(4) → 🌲(8) → 🎅(16) → higher scores
